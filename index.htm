@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css"/>
+       
+        
+        <!-- <script src="SVGEditor.js"></script> -->
+        
+    </head>
+    <body>
+        <!-- [if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif] -->
+        <svg width="250" height="250">
+            <polygon id="trangle" class="head" display="block" points="122.5 10, 235 200, 10 200" />
+            <polygon id="pentagon" class="head" display="none" points="125 15,110 48,92 110,30 110,13 48" />
+            <circle id="circle" class="head" display="none" r="120" cx="125" cy="125" />
+            <rect class="head" id="rect" display="none" width="240" height="240"/>
+
+            <circle id="weye" r="35" cx="83" cy=" 100" fill="white" /> 
+            <circle class="eye" id="eye" r="20" cx="83" cy=" 100"/> 
+
+            <circle id="weye" r="35" cx="166" cy=" 100" fill="white" />
+            <circle class="eye" id="eye" r="20" cx="166" cy=" 100"/>
+            
+            <path id="sad" class="happy" d="M 50 190 C 70 150, 180 150 ,200 190 " stroke="black" stroke-width="10" fill="transparent" stroke_height="20" />         
+            <path id="happy" class="sad" d="M 50 160 C 70 220, 180 220 ,200 160 " stroke="black" stroke-width="10" fill="transparent" stroke_height="20" />         
+            <path id="straight" class="straight" d="M 65 190 L 180 190 " stroke="black" stroke-width="10" fill="transparent" stroke_height="20" />         
+
+        </svg> 
+
+        <button id="btns">sad</button>
+        <button id="btnh">happy</button>
+        <button id="btnst">straight</button>
+        <button id="btnc">rect</button>
+        <button id="btnmove">move eye</button>
+        <script src="svg.js"></script>
+        
+        <div class="chrome">
+            <input id="myinput" min="0" max="100" type="range" value="50" />
+        </div>
+
+        <script src="colorpicker.js"></script>
+        
+        <script src="" async defer></script>
+    </body>
+</html>

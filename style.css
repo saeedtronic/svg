@@ -1,0 +1,48 @@
+.head{
+    fill:yellow;
+    stroke : rgb(0, 0, 0);
+    stroke-width: 10px;
+}
+.circle{
+    display: none;
+}
+.rect{
+    display: none;
+}
+.triangle{
+    display: none;
+}
+.pentagon{
+    display: none;
+}
+.hexagon{
+    display: none;
+}
+.star{
+    display: none;
+}
+.happy{
+    display: none;
+}
+.sad{
+    display: none;
+}
+.straight{
+    display: none ;
+}
+#myinput {
+    background: linear-gradient(90deg,
+                    rgb(255, 0, 228) 0%,
+                    rgb(0, 194, 255) 15%,
+                    rgb(35, 200, 0) 35%,
+                    rgb(255, 250, 164) 50%,
+                    rgb(255, 0, 0) 75%,
+                    rgb(0, 0, 0) 100%);
+    border: solid 1px #000000;
+    border-radius: 8px;
+    height: 20px;
+    width: 400px;
+    outline: none;
+    transition: background 450ms ease-in;
+    -webkit-appearance: none;
+  }
