@@ -21,10 +21,12 @@
         <!-- [if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif] -->
-        <svg width="250" height="250">
-            <polygon id="trangle" class="head" display="block" points="122.5 10, 235 200, 10 200" />
-            <polygon id="pentagon" class="head" display="none" points="125 15,110 48,92 110,30 110,13 48" />
-            <circle id="circle" class="head" display="none" r="120" cx="125" cy="125" />
+        <div class="svg-container">
+        <svg viewBox="0 0 250 250">
+            <polygon id="triangle" class="head" display="none" points="122.5 10, 235 200, 10 200" />
+            <polygon id="hexagon" class="head" display="none" points="50 3,100 28,100 75, 50 100, 3 75, 3 25" />
+            <polygon id="pentagon" class="head" display="none" points="60 13, 110 48, 92 110, 30 110, 16 48" />
+            <circle id="circle" class="head" display="block" r="120" cx="125" cy="125" />
             <rect class="head" id="rect" display="none" width="240" height="240"/>
 
             <circle id="weye" r="35" cx="83" cy=" 100" fill="white" /> 
@@ -36,9 +38,9 @@
             <path id="sad" class="happy" d="M 50 190 C 70 150, 180 150 ,200 190 " stroke="black" stroke-width="10" fill="transparent" stroke_height="20" />         
             <path id="happy" class="sad" d="M 50 160 C 70 220, 180 220 ,200 160 " stroke="black" stroke-width="10" fill="transparent" stroke_height="20" />         
             <path id="straight" class="straight" d="M 65 190 L 180 190 " stroke="black" stroke-width="10" fill="transparent" stroke_height="20" />         
-
+        
         </svg> 
-
+    </div>
         <button id="btns">sad</button>
         <button id="btnh">happy</button>
         <button id="btnst">straight</button>

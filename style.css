@@ -3,6 +3,18 @@
     stroke : rgb(0, 0, 0);
     stroke-width: 10px;
 }
+.svg-container {
+    width: 250px;
+    height: 250px;
+    resize: both;
+    overflow: auto;
+    border: 1px dashed #aaa;
+   }
+   
+   svg {
+    width: 95%;
+    height: 95%;
+   }
 .circle{
     display: none;
 }
