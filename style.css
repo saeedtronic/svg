@@ -1,60 +1,62 @@
-.head{
-    fill:yellow;
-    stroke : rgb(0, 0, 0);
-    stroke-width: 10px;
+.head {
+  fill: yellow;
+  stroke: rgb(0, 0, 0);
+  stroke-width: 10px;
 }
 .svg-container {
-    width: 250px;
-    height: 250px;
-    resize: both;
-    overflow: auto;
-    border: 1px dashed #aaa;
-   }
-   
-   svg {
-    width: 95%;
-    height: 95%;
-   }
-.circle{
-    display: none;
+  width: 250px;
+  height: 250px;
+  resize: both;
+  overflow: auto;
+  border: 1px dashed #aaa;
 }
-.rect{
-    display: none;
+
+svg {
+  width: 95%;
+  height: 95%;
 }
-.triangle{
-    display: none;
+.circle {
+  display: none;
 }
-.pentagon{
-    display: none;
+.rect {
+  display: none;
 }
-.hexagon{
-    display: none;
+.triangle {
+  display: none;
 }
-.star{
-    display: none;
+.pentagon {
+  display: none;
 }
-.happy{
-    display: none;
+.hexagon {
+  display: none;
 }
-.sad{
-    display: none;
+.star {
+  display: none;
 }
-.straight{
-    display: none ;
+.happy {
+  display: none;
+}
+.sad {
+  display: none;
+}
+.straight {
+  display: none;
 }
 #myinput {
-    background: linear-gradient(90deg,
-                    rgb(255, 0, 228) 0%,
-                    rgb(0, 194, 255) 15%,
-                    rgb(35, 200, 0) 35%,
-                    rgb(255, 250, 164) 50%,
-                    rgb(255, 0, 0) 75%,
-                    rgb(0, 0, 0) 100%);
-    border: solid 1px #000000;
-    border-radius: 8px;
-    height: 20px;
-    width: 400px;
-    outline: none;
-    transition: background 450ms ease-in;
-    -webkit-appearance: none;
-  }
+  background: linear-gradient(
+    90deg,
+    rgb(255, 0, 228) 0%,
+    rgb(0, 194, 255) 15%,
+    rgb(35, 200, 0) 35%,
+    rgb(255, 250, 164) 50%,
+    rgb(255, 0, 0) 75%,
+    rgb(0, 0, 0) 100%
+  );
+  border: solid 1px #000000;
+  border-radius: 8px;
+  height: 20px;
+  width: 400px;
+  outline: none;
+  transition: background 450ms ease-in;
+  -webkit-appearance: none;
+}
